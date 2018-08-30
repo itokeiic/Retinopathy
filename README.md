@@ -6,4 +6,4 @@ to classify the retina images dr4.tiff and healthy.tiff according to their degre
 
 resnet_model.py and resnet_run_loop.py are are two files from Tensorflow that are used in defining and training the ResNet model.  At this point, we don't need these files.
 
-Later on there will be another python file and training data that will perform the training of the Tensorflow model used in run_prediction.py.
+Later on, there will be another python file and training data that will perform the training of the Tensorflow model used in run_prediction.py.
