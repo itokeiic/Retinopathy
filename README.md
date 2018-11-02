@@ -1,6 +1,7 @@
 # Retinopathy
 Retinopathy Classification using Tensorflow
-
+This repository is a partial copy of the following repository of Niklas Köhler for use in the DEEP-Hybrid-DataCloud project:
+https://gitlab.com/niklaskoehler/retinopathy_model
 run_prediction.py uses trained model parameters and graph in retinopathy_serve/
 to classify the retina images dr4.tiff and healthy.tiff according to their degree of pathology: 0 to 4. For each image, the output is a probability distribution among the five classes.
 In the same directory as run_prediction.py run the following in the console.
